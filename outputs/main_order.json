@@ -1,0 +1,75 @@
+{
+ "seed": 20260919,
+ "order": {
+  "ai-app-before-release": [
+   "B",
+   "A",
+   "C"
+  ],
+  "ai-code-stopped-working": [
+   "C",
+   "A",
+   "B"
+  ],
+  "automation-what-stays-human": [
+   "A",
+   "B",
+   "C"
+  ],
+  "before-asking-for-estimate": [
+   "A",
+   "C",
+   "B"
+  ],
+  "csv-to-sheet-automation": [
+   "B",
+   "C",
+   "A"
+  ],
+  "diagnosis-what-you-get": [
+   "C",
+   "A",
+   "B"
+  ],
+  "estimate-compare-five": [
+   "B",
+   "A",
+   "C"
+  ],
+  "five-checks-before-accepting": [
+   "C",
+   "A",
+   "B"
+  ],
+  "inherited-without-spec": [
+   "C",
+   "A",
+   "B"
+  ],
+  "nocode-fails-in-production": [
+   "C",
+   "B",
+   "A"
+  ],
+  "outsourced-unfinished": [
+   "B",
+   "A",
+   "C"
+  ],
+  "paste-code-into-ai": [
+   "B",
+   "A",
+   "C"
+  ],
+  "site-slow-measure-first": [
+   "C",
+   "A",
+   "B"
+  ],
+  "vendor-unreachable": [
+   "B",
+   "A",
+   "C"
+  ]
+ }
+}

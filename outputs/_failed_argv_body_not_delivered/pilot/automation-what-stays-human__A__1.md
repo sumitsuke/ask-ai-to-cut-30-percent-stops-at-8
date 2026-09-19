@@ -1,0 +1,1 @@
+The message asks me to shorten a body of text by 20–30%, but no text was included. Please paste the body you'd like shortened and I'll return only the condensed version, keeping the headings, paragraphs, and bullet structure intact.

@@ -1,0 +1,28 @@
+# Data license — CC BY 4.0 (with one exception)
+
+The measurement data, tables, logs and generated artifacts in this
+repository — the CSV/JSON/Markdown files at the root, `outputs/`, `SHA256SUMS` — are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+  https://creativecommons.org/licenses/by/4.0/
+
+Please credit **Sumitsuke Lab** (https://sumitsuke.jp/lab/) and, where
+practical, link to the article:
+https://sumitsuke.jp/lab/ask-ai-to-cut-30-percent-stops-at-8/
+
+## Exception: `materials/`
+
+The 14 Markdown files in `materials/` are the source text of pages on
+https://sumitsuke.jp/works/guide/ . They are the copyrighted work of
+Sumitsuke and are **not** covered by CC BY 4.0. They are included here only
+so that the experiment can be re-run on exactly the same input (the
+character counts, protected atoms and boundary claims in the root files are
+derived from these files, byte for byte — see `materials_sha256.txt`).
+You may read them and run the scripts on them; you may not republish,
+redistribute or reuse the text itself outside this reproduction purpose.
+
+The shortened texts in `outputs/` are machine-generated derivatives of the
+same material, produced for the experiment; they are published as
+measurement artifacts (CC BY 4.0) and are not editorial content.
+
+Source code (`*.py`) is licensed separately under MIT (see `LICENSE`).
