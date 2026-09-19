@@ -41,3 +41,7 @@ The scripts live at the repository root and read/write `materials/`, `outputs/` 
 ## License
 
 Code: MIT (`LICENSE`). Data, tables and outputs: CC BY 4.0 (`DATA_LICENSE`) — please credit **Sumitsuke Lab** (https://sumitsuke.jp/lab/). `materials/` is excluded from CC BY (see `DATA_LICENSE`).
+
+## 変更履歴
+
+- 2026-09-19: 改行を LF に正規化（`.gitattributes`）し、`SHA256SUMS` を git index から再生成した。**それ以前に取得した `SHA256SUMS` とは値が一致しない**。旧い値は commit `b334ffc`（`git show b334ffc:SHA256SUMS`）。この変更の前は、Windows で取ったハッシュ（CRLF）のため Linux/macOS の `sha256sum -c` が失敗していた。
